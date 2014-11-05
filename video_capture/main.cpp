@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     bool isCalibrated = false;
-    const int heightStable = 240;
+    const int heightStable = 300;
     cv::VideoCapture cap(0);
     if (!cap.isOpened())
     {
@@ -31,10 +31,14 @@ int main()
     const int frameCenterX = size.width / 2;
     const int frameCenterY = size.height / 2;
 
-    const int calibratedMaxSize = 80;
-    const int calibratedMinSize = 60;
+    const int calibratedMaxSize = (double) size.height / 3; //Дичайший хардкод
+    const int calibratedMinSize = (double) size.height / 3.7;
 
-    cout << "Heigh: " << size.height << " " << "Width: " << size.width << endl;
+    const int monitorDistance = 100;    //Нужно подбирать
+
+    const double maxAngleAlpha = (double)size.width / 2 / monitorDistance;
+    const double maxAngleBeta = (double)size.height / 2 / monitorDistance;
+
     while (1)
     {
         cv::Mat frame;
@@ -78,6 +82,9 @@ int main()
         int centerX = 0;
         int centerY = 0;
 
+        double alpha = 0;
+        double beta = 0;
+
         if (!faces.empty())
         {
             cv::Point pt1(faces[biggestIndex].x, faces[biggestIndex].y);
@@ -93,14 +100,19 @@ int main()
             else
                 isCalibrated = true;
 
+            alpha = (double)(centerX - frameCenterX) / monitorDistance / maxAngleAlpha;
+            beta = (double)(centerY - frameCenterY) / monitorDistance / maxAngleBeta;
+
             cv::rectangle(frame, pt1, pt2, cv::Scalar(0, 255, 0), 2, 8, 0);
         }
+
+        //где-то отсюда нужно забирать углы.
 
         if (isCalibrated)
         {
             if (centerX || centerY)
             {
-                cout << centerX - frameCenterX << " " << frameCenterY - centerY << endl;
+                cout << alpha << " " << beta << endl;
             }
             else
             {
@@ -110,7 +122,7 @@ int main()
 
         imshow("MyVideo", frame);
 
-        if (cv::waitKey(30) == 27)
+        if (cv::waitKey(5) == 27)
         {
            break;
         }
