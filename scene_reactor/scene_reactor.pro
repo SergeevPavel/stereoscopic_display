@@ -3,5 +3,7 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 LIBS += -lGL -lglut -lGLU
-SOURCES += main.cpp
+HEADERS += camera.h common_header.h
+SOURCES += main.cpp camera.cpp
+
 

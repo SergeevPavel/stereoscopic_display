@@ -3,12 +3,7 @@
 site:  http://flank1er.blogspot.ru
 */
 
-#include <iostream>
-#include <cmath>
-
-#include <GL/gl.h>
-#include <GL/glu.h>
-#include <GL/freeglut.h>
+#include "common_header.h"
 
 int angle=0; // угол вращения
 
