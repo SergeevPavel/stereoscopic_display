@@ -1,0 +1,325 @@
+﻿Build started 06.11.2014 2:22:45.
+     1>Project "D:\AU\DevDays\dll\Controller\Controller\Controller.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AU\DevDays\dll\Controller\Debug\Controller.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\AU\DevDays\opencv\opencv\build\x86\vc12\staticlib opencv_core2410.lib opencv_contrib2410.lib opencv_features2d2410.lib opencv_objdetect2410.lib opencv_nonfree2410.lib opencv_highgui2410.lib opencv_flann2410.lib opencv_imgproc2410.lib opencv_video2410.lib opencv_legacy2410.lib opencv_gpu2410.lib opencv_ml2410.lib IlmImf.lib libjasper.lib libpng.lib libtiff.lib libjpeg.lib zlib.lib Vfw32.Lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\AU\DevDays\dll\Controller\Debug\Controller.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AU\DevDays\dll\Controller\Debug\Controller.lib" /MACHINE:X86 /DLL Debug\Controller.obj
+     1>opencv_highgui2410.lib(cap.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(cap.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(cap.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(opencv_highgui_pch.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(opencv_highgui_pch.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(opencv_highgui_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(cap_vfw.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(cap_vfw.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(cap_vfw.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(cap_dshow.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(cap_dshow.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(cap_dshow.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(cap_images.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(cap_images.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(cap_images.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(cap_ffmpeg.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(cap_ffmpeg.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(cap_ffmpeg.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(utils.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(utils.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(utils.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(loadsave.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(loadsave.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(loadsave.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_bmp.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_bmp.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_bmp.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_sunras.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_sunras.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_sunras.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_jpeg.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_jpeg.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_jpeg.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_pxm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_pxm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_pxm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_tiff.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_tiff.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_tiff.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_png.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_png.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_png.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_jpeg2000.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_jpeg2000.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_jpeg2000.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_exr.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_exr.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_exr.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(bitstrm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(bitstrm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(bitstrm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_base.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_base.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_highgui2410.lib(grfmt_base.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfHeader.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfHeader.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfHeader.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfFrameBuffer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfFrameBuffer.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfFrameBuffer.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfInputFile.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfInputFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfInputFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfOutputFile.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfOutputFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfOutputFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfChannelList.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfChannelList.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfChannelList.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(half.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(half.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(half.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfChromaticities.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfChromaticities.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfChromaticities.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfStandardAttributes.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfStandardAttributes.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfStandardAttributes.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(IexBaseExc.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(IexBaseExc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(IexBaseExc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfIO.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfStdIO.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfStdIO.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfStdIO.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfCompressor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfCompressor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfCompressor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfBoxAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfBoxAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfBoxAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfChannelListAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfChannelListAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfChannelListAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfChromaticitiesAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfChromaticitiesAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfChromaticitiesAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfCompressionAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfCompressionAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfCompressionAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfDoubleAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfDoubleAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfDoubleAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfEnvmapAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfEnvmapAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfEnvmapAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfFloatAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfFloatAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfFloatAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfIntAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfIntAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfIntAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfKeyCode.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfKeyCode.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfKeyCode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfKeyCodeAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfKeyCodeAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfKeyCodeAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfLineOrderAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfLineOrderAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfLineOrderAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfMatrixAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfMatrixAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfMatrixAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfOpaqueAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfOpaqueAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfOpaqueAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfPreviewImage.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfPreviewImage.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfPreviewImage.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfPreviewImageAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfPreviewImageAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfPreviewImageAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfRationalAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfRationalAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfRationalAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfStringAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfStringAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfStringAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfStringVectorAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfStringVectorAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfStringVectorAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfTileDescriptionAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfTileDescriptionAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfTileDescriptionAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfTimeCode.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfTimeCode.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfTimeCode.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfTimeCodeAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfTimeCodeAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfTimeCodeAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfVecAttribute.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfVecAttribute.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfVecAttribute.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(IlmThreadMutexWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(IlmThreadMutexWin32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(IlmThreadMutexWin32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(IlmThreadPool.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(IlmThreadPool.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(IlmThreadPool.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfScanLineInputFile.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfScanLineInputFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfScanLineInputFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfTiledInputFile.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfTiledInputFile.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfTiledInputFile.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfMisc.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfMisc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfMisc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(IlmThreadSemaphoreWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(IlmThreadSemaphoreWin32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(IlmThreadSemaphoreWin32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(IexThrowErrnoExc.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(IexThrowErrnoExc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(IexThrowErrnoExc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfRleCompressor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfRleCompressor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfRleCompressor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfZipCompressor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfZipCompressor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfZipCompressor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfPizCompressor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfPizCompressor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfPizCompressor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfPxr24Compressor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfPxr24Compressor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfPxr24Compressor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfB44Compressor.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfB44Compressor.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfB44Compressor.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(IlmThreadWin32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(IlmThreadWin32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(IlmThreadWin32.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfTiledMisc.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfTiledMisc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfTiledMisc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfTileOffsets.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfTileOffsets.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfTileOffsets.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfConvert.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfConvert.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfConvert.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>IlmImf.lib(ImfHuf.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>IlmImf.lib(ImfHuf.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>IlmImf.lib(ImfHuf.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(alloc.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(alloc.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(alloc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(matrix.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(matrix.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(matrix.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(copy.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(copy.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(copy.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(system.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(system.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(system.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(array.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(array.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(array.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(convert.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(convert.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(convert.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(opencv_core_pch.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(opencv_core_pch.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(opencv_core_pch.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(stat.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(stat.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(stat.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(rand.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(rand.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(rand.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(parallel.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(parallel.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(parallel.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(matop.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(matop.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(matop.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(datastructs.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(datastructs.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(datastructs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(gpumat.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(gpumat.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(gpumat.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(opengl_interop_deprecated.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(opengl_interop_deprecated.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(opengl_interop_deprecated.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(opengl_interop.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(opengl_interop.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(opengl_interop.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(arithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(arithm.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(arithm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(persistence.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(persistence.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(persistence.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(tables.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(tables.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(tables.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(matmul.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(matmul.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(matmul.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(lapack.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(lapack.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(lapack.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>opencv_core2410.lib(mathfuncs.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1800' doesn't match value '1700' in Controller.obj
+     1>opencv_core2410.lib(mathfuncs.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Controller.obj
+     1>opencv_core2410.lib(mathfuncs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MTd_StaticDebug' in Controller.obj
+     1>LIBCMT.lib(CancellationToken.obj) : error LNK2005: "public: void __thiscall Concurrency::details::_CancellationTokenState::_Cancel(void)" (?_Cancel@_CancellationTokenState@details@Concurrency@@QAEXXZ) already defined in opencv_core2410.lib(parallel.obj)
+     1>LIBCMT.lib(CancellationToken.obj) : error LNK2005: "private: void __thiscall Concurrency::details::_CancellationTokenRegistration::_Invoke(void)" (?_Invoke@_CancellationTokenRegistration@details@Concurrency@@AAEXXZ) already defined in opencv_core2410.lib(parallel.obj)
+            Creating library D:\AU\DevDays\dll\Controller\Debug\Controller.lib and object D:\AU\DevDays\dll\Controller\Debug\Controller.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libpng.lib(pngget.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>libtiff.lib(tif_color.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>libtiff.lib(tif_dirwrite.obj) : error LNK2019: unresolved external symbol __dtoui3 referenced in function _TIFFRewriteDirectory
+     1>opencv_core2410.lib(rand.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>opencv_highgui2410.lib(cap_vfw.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>opencv_highgui2410.lib(cap_dshow.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>IlmImf.lib(ImfMisc.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>libjasper.lib(jpc_enc.obj) : error LNK2001: unresolved external symbol __dtoui3
+     1>IlmImf.lib(ImfConvert.obj) : error LNK2019: unresolved external symbol __ftoui3 referenced in function "unsigned int __cdecl Imf::floatToUint(float)" (?floatToUint@Imf@@YAIM@Z)
+     1>libtiff.lib(tif_dirwrite.obj) : error LNK2001: unresolved external symbol __ftoui3
+     1>libtiff.lib(tif_dirread.obj) : error LNK2019: unresolved external symbol __ltod3 referenced in function _TIFFReadDirEntryDouble
+     1>libtiff.lib(tif_aux.obj) : error LNK2001: unresolved external symbol __ltod3
+     1>opencv_core2410.lib(system.obj) : error LNK2001: unresolved external symbol __ltod3
+     1>opencv_core2410.lib(rand.obj) : error LNK2001: unresolved external symbol __ltod3
+     1>libtiff.lib(tif_dirread.obj) : error LNK2019: unresolved external symbol __ultod3 referenced in function _TIFFReadDirEntryDouble
+     1>opencv_core2410.lib(matrix.obj) : error LNK2001: unresolved external symbol __ultod3
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(stdthrow.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function "void __cdecl std::_Debug_message(wchar_t const *,wchar_t const *,unsigned int)" (?_Debug_message@std@@YAXPB_W0I@Z)
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+     1>libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol __calloc_dbg referenced in function __Getctype
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: unresolved external symbol __malloc_dbg referenced in function "public: class std::_Yarn<char> & __thiscall std::_Yarn<char>::operator=(char const *)" (??4?$_Yarn@D@std@@QAEAAV01@PBD@Z)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __malloc_dbg
+     1>libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(cerr.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale0.obj) : error LNK2019: unresolved external symbol __free_dbg referenced in function "private: void __thiscall std::_Yarn<char>::_Tidy(void)" (?_Tidy@?$_Yarn@D@std@@AAEXXZ)
+     1>libcpmtd.lib(xdebug.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol __free_dbg
+     1>libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol __realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned int)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPAV123@PAVfacet@23@I@Z)
+     1>opencv_core2410.lib(parallel.obj) : error LNK2019: unresolved external symbol "public: __thiscall Concurrency::details::_StructuredTaskCollection::~_StructuredTaskCollection(void)" (??1_StructuredTaskCollection@details@Concurrency@@QAE@XZ) referenced in function "void __cdecl Concurrency::_Parallel_chunk_impl<class Concurrency::_Parallel_chunk_helper<int,unsigned int,class `anonymous namespace'::ProxyLoopBody,class Concurrency::auto_partitioner,0>,int,unsigned int,class `anonymous namespace'::ProxyLoopBody,class Concurrency::auto_partitioner const &>(int const &,unsigned int,unsigned int const &,class `anonymous namespace'::ProxyLoopBody const &,class Concurrency::auto_partitioner const &)" (??$_Parallel_chunk_impl@V?$_Parallel_chunk_helper@HIVProxyLoopBody@?A0x41734af5@@Vauto_partitioner@Concurrency@@$0A@@Concurrency@@HIVProxyLoopBody@?A0x41734af5@@ABVauto_partitioner@2@@Concurrency@@YAXABHIABIABVProxyLoopBody@?A0x41734af5@@ABVauto_partitioner@0@@Z)
+     1>opencv_core2410.lib(parallel.obj) : error LNK2019: unresolved external symbol "long __cdecl Concurrency::details::platform::GetCurrentThreadId(void)" (?GetCurrentThreadId@platform@details@Concurrency@@YAJXZ) referenced in function "private: static void __cdecl <lambda_47e1fe12d596ef4061c6cb1f8619960b>::<helper_func_cdecl>(class Concurrency::details::_CancellationTokenRegistration *)" (?<helper_func_cdecl>@<lambda_47e1fe12d596ef4061c6cb1f8619960b>@@CAXPAV_CancellationTokenRegistration@details@Concurrency@@@Z)
+     1>D:\AU\DevDays\dll\Controller\Debug\Controller.dll : fatal error LNK1120: 11 unresolved externals
+     1>Done Building Project "D:\AU\DevDays\dll\Controller\Controller\Controller.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.26

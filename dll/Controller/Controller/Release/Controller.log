@@ -1,0 +1,21 @@
+﻿Сборка начата 06.11.2014 17:15:57.
+     1>Проект "C:\DevDays\dll\Controller\Controller\Controller.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CONTROLLER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp
+         Controller.cpp
+     1>Controller.cpp(95): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>Controller.cpp(96): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+     1>Controller.cpp(125): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>Controller.cpp(127): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>Controller.cpp(128): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DevDays\dll\Controller\Release\Controller.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\DevDays\opencv\opencv\build\x86\vc12\staticlib opencv_core2410.lib opencv_contrib2410.lib opencv_features2d2410.lib opencv_objdetect2410.lib opencv_nonfree2410.lib opencv_highgui2410.lib opencv_flann2410.lib opencv_imgproc2410.lib opencv_video2410.lib opencv_legacy2410.lib opencv_gpu2410.lib opencv_ml2410.lib IlmImf.lib libjasper.lib libpng.lib libtiff.lib libjpeg.lib zlib.lib Vfw32.Lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DevDays\dll\Controller\Release\Controller.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DevDays\dll\Controller\Release\Controller.lib" /MACHINE:X86 /SAFESEH /DLL Release\Controller.obj
+            Создается библиотека C:\DevDays\dll\Controller\Release\Controller.lib и объект C:\DevDays\dll\Controller\Release\Controller.exp
+         Создание кода
+         Создание кода завершено
+         Controller.vcxproj -> C:\DevDays\dll\Controller\Release\Controller.dll
+     1>Сборка проекта "C:\DevDays\dll\Controller\Controller\Controller.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.09
