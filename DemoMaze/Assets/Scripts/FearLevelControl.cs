@@ -3,10 +3,11 @@ using System.Collections;
 
 public class FearLevelControl : MonoBehaviour {
 	public static bool isSpoted = false;
-	public double MaxFearLevel = 100;
-	public double CurrentFearLevel = 0;
+	public float MaxFearLevel = 100;
+	public float CurrentFearLevel = 0;
+	private Texture2D texture;
 	public static GameState state;
-	public int FearIncr = 2;
+	public float FearIncr = 2;
 	public enum GameState{
 		Win,
 		Loose,
@@ -14,6 +15,9 @@ public class FearLevelControl : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
+		texture = new Texture2D(1, 1);
+		texture.SetPixel(0,0,Color.gray);
+		texture.Apply();
 		state = GameState.InGame;
 	}
 
@@ -34,7 +38,7 @@ public class FearLevelControl : MonoBehaviour {
 			{
 				if ( CurrentFearLevel > 0 )
 				{
-					CurrentFearLevel -= FearIncr / 2 * Time.deltaTime;
+					CurrentFearLevel -= FearIncr / 4 * Time.deltaTime;
 				}
 				else
 				{
@@ -54,6 +58,9 @@ public class FearLevelControl : MonoBehaviour {
 		{
 			GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 100, 40), "YOU WIN");
 		}
-		GUI.Label(new Rect(10, 40, 100, 20), ((int)CurrentFearLevel).ToString());
+		GUI.skin.box.normal.background = texture;
+		GUI.Box(new Rect(Screen.width / 2 - (CurrentFearLevel + 10) * 2.5f / 2, Screen.height - 20, (CurrentFearLevel + 10) * 2.5f, 7), 
+		        CurrentFearLevel.ToString() + "/" + MaxFearLevel.ToString());
 	}
+	
 }
