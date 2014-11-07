@@ -17,21 +17,18 @@ float horizontalAngle;
 cv::Size size;
 
 bool isCalibrated = false;
-const int heightStable = 300;
+const int heightStable = 240;
 
-const int frameCenterX = size.width / 2;
-const int frameCenterY = size.height / 2;
+int frameCenterX = 0;
+int frameCenterY = 0;
 
-const int calibratedMaxSize = (float) size.height / 3; //Дичайший хардкод
-const int calibratedMinSize = (float) size.height / 3.7;
+int calibratedMaxSize = 0;
+int calibratedMinSize = 0;
 
-const int monitorDistance = 100;    //Нужно подбирать
+const int monitorDistance = 200;    //Нужно подбирать
 
-const float maxAngleAlpha = (float)size.width / 2 / monitorDistance;
-const float maxAngleBeta = (float)size.height / 2 / monitorDistance;
-
-
-using namespace std;
+float maxAngleAlpha = 0;
+float maxAngleBeta = 0;
 
 void angleUpdater()
 {
@@ -52,7 +49,7 @@ void angleUpdater()
         cv::resize(frame, frame, size);
         cv::cvtColor(frame, grayFrame, cv::COLOR_BGR2GRAY);
         cv::equalizeHist(grayFrame, grayFrame);
-        vector<cv::Rect> faces;
+        std::vector<cv::Rect> faces;
 
         cascade->detectMultiScale(grayFrame, faces, 1.1, 3, cv::CASCADE_SCALE_IMAGE);
 
@@ -74,7 +71,7 @@ void angleUpdater()
             }
         }
 
-        const string text = isCalibrated ? "CALIBRATED" : "NOT CALIBRATED";
+        const std::string text = isCalibrated ? "CALIBRATED" : "NOT CALIBRATED";
         cv::putText(frame, text, cvPoint(size.width / 4, 30), cv::FONT_HERSHEY_COMPLEX_SMALL, 0.8, cvScalar(0, 0, 255), 1, CV_AA);
 
         int centerX = 0;
@@ -102,15 +99,11 @@ void angleUpdater()
         }
 
         //где-то отсюда нужно забирать углы.
-
-        if (isCalibrated)
-        {
-            if (centerX || centerY)
-            {
-				horizontalAngle = alpha;
-				verticalAngle = beta;
-            }
-        }
+		if (isCalibrated)
+		{
+			horizontalAngle = alpha;
+			verticalAngle = beta;
+		}
 		imshow("FaceWindow", frame);
 	}
 }
@@ -130,6 +123,16 @@ extern "C"
 		cascade->load("haarcascade_frontalface_default.xml");
 		size.height = heightStable;
 		size.width = camera->get(CV_CAP_PROP_FRAME_WIDTH) * heightStable / camera->get(CV_CAP_PROP_FRAME_HEIGHT);
+
+		calibratedMaxSize = (float)size.height / 2.2;
+		calibratedMinSize = (float)size.height / 3.5;
+		
+		frameCenterX = size.width / 2;
+		frameCenterY = size.height / 2;
+
+		maxAngleAlpha = (float)size.width / 2 / monitorDistance;
+		maxAngleBeta = (float)size.height / 2 / monitorDistance;
+
 		updateIsRunning = true;
 		updaterThread = std::make_shared<std::thread>(angleUpdater);
 		return 0;
@@ -139,10 +142,10 @@ extern "C"
 	{
 		updateIsRunning = false;
 		updaterThread->join();
-		cv::destroyAllWindows();
 		camera.reset();
-		updaterThread.reset();
 		cascade.reset();
+		updaterThread.reset();
+		cv::destroyAllWindows();
 		return 0;
 	}
 
